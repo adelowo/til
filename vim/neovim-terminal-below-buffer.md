@@ -12,4 +12,6 @@ nnoremap <Leader>te :below 15sp term://$SHELL<cr>i
 ```
 Then display the terminal with `,te` assuming `,` is set as `<Leader>`
 
+> Even with this, I still find it preferable running a drop down terminal since I have a ___global mapping___ for it.. I make use of the quake mode in Tilix for the drop down terminal.
+
 
