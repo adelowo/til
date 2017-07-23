@@ -1,30 +1,31 @@
 # Aligning (Indenting) paragraphs within list items
 
-- One
+```md
+-One
 
 Some info about one
 
-- Two
+-Two
+
+```
 
 This makes it look like `Two` is another list since the comment after `One` isn't aligned. To fix that, you add a blank line and one (or more spaces) before the comment like
 
-```plain
 
-- One
+-One
  
  Some info about one
 
-- Two
+-Two
 
-```
 
 Which gets rendered as 
 
 ```md
 
-- One
+-One
 
  Some info about one
 
-- Two
+-Two
 ```
